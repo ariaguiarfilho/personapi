@@ -29,6 +29,11 @@ public class PersonController {
         return personService.createPerson(personDTO);
     }
 
+    @GetMapping("teste")
+    public String teste(){
+        return "teste";
+    }
+
     @GetMapping
     public List<PersonDTO> listAll(){
         return personService.listAll();
