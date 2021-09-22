@@ -25,8 +25,8 @@ public class Person {
     private  Long id;
 
     @NotBlank
-    @Column(name = "per_fisrt_name",nullable = false)
-    private String fisrtName;
+    @Column(name = "per_first_name",nullable = false)
+    private String firstName;
 
     @Column(name = "per_cpf",unique = true,nullable = false)
     private String cpf;
